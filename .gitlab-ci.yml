@@ -1,0 +1,10 @@
+image: node:10.5.0-alpine
+
+cache:
+  paths:
+  - node_modules/
+
+test:
+  script:
+   - npm install -g yarn
+   - yarn && yarn test

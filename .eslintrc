@@ -1,0 +1,13 @@
+{
+  "extends": "google",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "globals": {},
+  "rules": {
+    "no-var": 0
+  }
+}
